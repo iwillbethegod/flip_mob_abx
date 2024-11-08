@@ -7,6 +7,10 @@ import {
   TouchableWithoutFeedback,
   View,
 } from 'react-native';
+import {
+  heightPercentageToDP as hp,
+  widthPercentageToDP as wp,
+} from 'react-native-responsive-screen';
 import {Checkbox} from 'react-native-paper';
 import {useDispatch} from 'react-redux';
 import CustomActivityIndicator from '../components/CustomActivityIndicator';

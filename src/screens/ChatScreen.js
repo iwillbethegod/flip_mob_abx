@@ -2,7 +2,7 @@ import React, {useEffect, useRef, useState} from 'react';
 import {FlatList, Keyboard, TextInput, View} from 'react-native';
 import {Button} from 'react-native-paper';
 import ChatMessage from '../components/ChatMessage';
-import {sendMessageApi} from '../data/network/ApiImplementation';
+import {sendMessageApi} from '../network/ApiImplementation';
 
 export default function ChatScreen({route, navigation}) {
   const flatListRef = useRef(null);
