@@ -307,7 +307,7 @@ export const sendMessageApi = async text => {
 
   try {
     const response = await fetch(
-      'https://ai-workbench.flipnow.cloud/claims/abx/getResponse',
+      'https://ai-workbench.flipnow.cloud/abx/api/getResponse',
       {
         method: 'POST',
         body: JSON.stringify({query : text}),
